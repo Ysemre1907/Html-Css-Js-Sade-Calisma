@@ -1,0 +1,396 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Anton', sans-serif;
+    overflow: auto;
+}
+/*Anasayfa Video*/
+.hero{
+    position: relative;
+}
+#video{
+    height: 100vh;
+    width: 100%;
+    z-index: 1;
+    object-fit:cover;
+}
+/*Video Üstü*/
+.content{
+
+    height: 100%;
+    width: 100%;
+    z-index: 2;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.flogo{
+    position: absolute;
+    color: white;
+    top: 55px;
+    left: 43%;
+}
+.flogo:hover{
+    color:#B53743;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    text-decoration: underline;
+    user-select: none;
+    
+}
+h2{
+    color: wheat;
+    font-size: 35px;
+    text-decoration: underline;
+    user-select: none;
+}
+.animate{
+    color: white;   
+    animation: fade 2s infinite;       
+ }
+ @keyframes fade{
+     0%{
+         color: white;
+     }
+     50%{
+         color: #B53743;;
+     }
+     100%{
+         color: white;
+     }
+ }
+
+.buton{
+  padding: 15px 25px;
+  margin-right: 10px;
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  outline: none;
+  color: #fff;
+  background-color: #B53743;;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+button a{
+    text-decoration: none;
+    color: white;
+}
+
+
+
+
+/*Menü*/
+.hcontaniner{
+    max-height: 2000px;
+    width: 100%;
+}
+.header{
+    width: 100%;
+    height: 100px;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;   
+}
+.header .hlogo{
+    color: white;
+    margin-left: 30px;
+}
+.header .slogo{
+    
+    padding: 10px;     
+    margin-left: 23%;  
+}
+.header .slogo i{
+    
+    margin-right: 25px;
+    color: white;
+}
+.header .slogo a{
+    text-decoration: none;
+}
+
+.header ul{
+    list-style-type: none;
+    float: right;
+    width: 100%;
+    
+}
+.header ul li{
+    display:inline-block;
+    padding: 25px 15px;
+    width: 10%;
+    margin-right: 25px;
+}
+.header ul li a{
+    text-decoration: none;
+    color: white;
+}
+
+
+.hmain{
+    width: 80%;
+    height: 1100px;
+    background-color: #dbecf8;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+}
+.hcontent{
+    margin-top: 30px;
+    width: 100%;   
+}
+.hcontent h1{
+    margin-left: 35px;
+    color: black;
+}
+.hcolumn45{
+width: 45%;
+float: left;
+text-align: center;
+overflow: hidden;
+}
+.hcolumn i{
+color: black;
+}
+.hcolumn45 img{
+    width: 100%;
+    border-radius: 500px;
+}
+.hcolumn100{
+    width: 100%;
+    text-align: center;
+}
+.logom{
+    display: none;
+}
+
+/*Footer*/
+footer{
+ width: 100%;
+ height: 150px;   
+ background-color: black;
+ bottom: 0px;
+ left: 0px;
+}
+.hizala{
+    width: 100%;
+    text-align: center;
+    
+}
+.hcolumn50{
+    width: 100%;
+  
+}
+.hcolumn50 p{
+    
+    color: white;
+    font-size: 20px;
+}
+/*İletişim*/
+.imain{
+    width: 80%;
+    height: 1300px;
+    background-color:rgb(248, 248, 186) ;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 100px;
+}
+.imain h1{
+color: black;
+}
+.ihizala{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+    align-items: center;
+}
+.ihizala input{
+    width: 30%;
+    height: 20px;
+    align-items: center;
+}
+.ihizala select{
+    width: 30%;
+    height: 20px;
+}
+#gonder{
+    display: inline-block;
+    border-radius: 4px;
+    background-color: #f4511e;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+#gonder:hover{
+    background-color: black;
+    color: #F8F8BA;
+}
+/*Projelerim*/
+.pro{
+    width: 80%;
+    height: 100%;
+    background-color:rgb(252, 210, 210) ;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    
+    
+}
+
+.pmain{
+    width: 100%;     
+}
+.pmain h1{
+    margin-left: 150px;
+      
+}
+.animatee{
+    color: white;   
+    animation: fade 2s infinite;       
+ }
+ @keyframes fade{
+     0%{
+         color: white;
+     }
+     50%{
+         color: #FCD2D2;;
+     }
+     100%{
+         color: white;
+     }
+ }
+.projeler{
+    text-align: center;
+}
+.projeler img{
+    width: 30%;
+    margin: 20px;
+    
+}
+#ac1, #ac11,
+#ac2, #ac22,
+#ac3, #ac33,
+#ac4, #ac44,
+#ac5, #ac55,
+#ac6, #ac66
+{
+    padding: 5px 5px;
+    margin-right: 10px;
+    font-size: 24px;
+    text-align: center;
+    cursor: pointer;
+    outline: none;
+    color: #fff;
+    background-color: #B53743;;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+.ayrinti{
+    display: flex;
+    justify-content: space-around;
+}
+.ayrinti h4{
+    font-size: 20px;
+}
+
+#tiklayiniz{
+    width: 20%;
+    height: 50px;
+}
+/*Responsive Kısmı*/
+
+/*Hakkımda Responsive*/
+@media screen and (max-width:1300px){
+.slogo{
+   display: none;
+}
+
+.hcolumn45{
+    width: 50%;
+}
+.logom{
+    display: block;
+    text-align: center;
+}
+
+}
+@media screen and (max-width:700px){
+.slogo{
+    display: none;
+}
+.hlogo{
+    display:none;
+}
+
+.hcolumn45{
+    width: 100%;
+}
+.hmain{
+    height: 1300px;
+}
+
+.logom{
+    display: block;
+    text-align: center;
+}
+}
+/*İletişim Responsive*/
+@media screen and (max-width:1100px){
+    .ihizala{
+        width: 100%;
+    }
+    textarea{
+        width: 80%;
+    }
+}
+@media screen and (max-width:700px){
+    .ihizala{
+        width: 100%;
+    }
+form{
+    margin-top: 100px;
+}
+}
+/*Projeler Responsive*/
+
+
+@media screen and (max-width:1300px){
+    .projeler{
+        width: 100%;
+    } 
+}
+@media screen and (max-width:1000px){
+    .projeler{
+        width: 100%;
+    } 
+}
+@media screen and (max-width:700px){
+    .projeler{
+        width: 100%;
+    }
+.pmain .animatee{
+    font-size: 30px;
+}
+}
+    
+
+
+
+

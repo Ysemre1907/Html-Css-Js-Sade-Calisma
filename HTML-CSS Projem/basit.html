@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Basit Site</title>
+    
+</head>
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    background:url(back.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container .navbar{
+    width: 100%;
+    height: 80px;
+    background-color: aqua;
+}
+.navbar .logo{
+    display: inline-block;
+    margin-left: 50px;
+    margin-top: 20px;
+    
+}
+.navbar .logo a{
+    text-decoration: none;
+    font-size: 30px;
+    font-family: sans-serif;
+    color: white;
+}
+.navbar ul{
+float: right;
+margin-right: 20px;
+}
+.navbar ul li {
+    list-style-type: none;
+    display: inline-block;
+    margin: 20px;
+    line-height: 40px;
+}
+.navbar ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 6px 13px;
+}
+.navbar ul li a:hover{
+    background-color: red;
+    border-radius: 10px;
+}
+.container .center {
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+.center h1{
+    color: black;
+    font-size: 70px;
+    font-weight: bold;
+    width: 900px;
+    text-align: center;
+}
+.center h2{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    width: 885px;
+    text-align: center;
+    margin-top:5px;
+}
+.center .buttons{
+    text-align: center;
+}
+.buttons button{
+    height: 50px;
+    width: 150px;
+    font-size: 20px;
+    color: black;
+    background-color: rgb(249, 255, 196);
+    border:solid 2px red;
+    margin-top: 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    outline: none;
+}
+.buttons button:hover{
+    background:aqua;
+}
+
+
+</style>
+<body>
+    <div class="container">
+        <div class="navbar">  
+           <div class="logo">
+            <a href="#">LOGO</a>
+           </div>
+           <ul id="ul">
+            <li><a href="">Anasayfa</a> </li>
+            <li><a href="">Hakkımızda</a> </li>
+            <li><a href="">Hizmetler</a> </li>
+            <li><a href="">Ürünler</a> </li>
+            <li><a href="">İletişim</a> </li>
+        </ul>
+       </div>
+       <div class="center">
+           <h1>Benim Web Sitem</h1>
+           <h2>Hoşgeldiniz!</h2>
+           <div class ="buttons">
+           <button> Daha Fazla...</button>
+           <button> Abone Ol! </button>
+           </div>
+       </div>
+    </div>
+
+    
+</body>
+</html>

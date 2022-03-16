@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hakkımda</title>
+    <!--İcon-->
+   <link rel="icon" href="img/icon.png" type="image/gif" sizes="16x16
+    <!--Google Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">  
+    <!--Font Awesome-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+	integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
+    <!--Aos-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <!--Css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="hcontanier">
+        <header class="header">
+            
+            <div class="hlogo">
+                <i class="fas fa-fish fa-6x"></i>
+            </div>
+            <div class="slogo">
+                 <a href="https://www.instagram.com/ysemre1907/"target="_blank"><i class="fab fa-instagram fa-5x"></i></a> 
+                 <a href="https://twitter.com/YunusOvski1"target="_blank"><i class="fab fa-twitter-square fa-5x"></i></a>
+                 <a href="#"><i class="fab fa-linkedin fa-5x"></i></a> 
+            </div>
+            <div class="menu">
+                <nav>
+                    <ul>
+                        <li> <a href="index.html">Anasayfa</a> </li>
+                        <li> <a href="hakkimda.html">Hakkımda</a> </li>
+                        <li> <a href="iletisim.html">İletişim</a> </li>
+                        <li> <a href="projelerim.html">Projelerim</a> </li>
+                        
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <div class="hmain">
+            <div class="hcontent">
+                <br>
+                <h1>Hakkımda</h1>
+                <br> <br>
+                <div class="hcolumn45">
+                    <img src="img/myfoto.jpeg" alt="Resmim"data-aos="flip-left" data-aos-duration="3000"> 
+
+                </div>
+                <div class="hcolumn45">
+                    <img src="img/mektupp.png" alt="mektup" id="mektupp">
+                     <p id="yaz"></p> 
+                </div>     
+            </div>
+            
+            
+  
+        </div>
+        
+    </div>
+
+        
+    </div>
+    <div class="logom">
+        <a href="https://www.instagram.com/ysemre1907/"target="_blank"><i class="fab fa-instagram fa-5x"></i></a> 
+                 <a href="https://twitter.com/YunusOvski1"target="_blank"><i class="fab fa-twitter-square fa-5x"></i></a>
+                 <a href="#"><i class="fab fa-linkedin fa-5x"></i></a> 
+    </div>
+    <footer>
+        <div class="hizala">
+            <div class="hcolumn50">
+                <br> <hr>
+                <p>Copyright © 2022 Tüm Hakları Saklıdır.  </p>
+                <hr>
+            </div>
+     
+        </div>
+    </footer>
+    
+
+
+
+ <script>
+     AOS.init();
+
+     document.getElementById("mektupp").onclick=function(){
+         yaz=document.getElementById("yaz").innerHTML="Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsam illum, inventore modi quae minima, placeat vel libero iure fugit reiciendis nisi dolore accusantium quasi ipsa magni. Vitae pariatur, alias facere iure quos explicabo ratione fugiat voluptates, nam tempore reiciendis officiis tenetur aperiam maxime nisi corporis sit accusantium ullam quidem eum."
+     }
+</script>
+</body>
+</html>

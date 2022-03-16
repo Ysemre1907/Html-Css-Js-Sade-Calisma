@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Pilot</title>
+    <style>
+        *{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+/*Üst Kısım*/
+header{
+    height: 150px;
+    width: 100%;
+    background-color: black;
+}
+.hizala{
+    
+    height: auto;
+    width: 75%;
+    margin: auto;
+    
+}
+.logo{
+    height: 100px;
+    width: 30%;
+    float: left;
+    color: white; 
+    margin-top: 20px; 
+}
+.logo a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+.menu{
+    height: 100px;
+    width: 70%;
+    float: left;
+    color: white; 
+    margin-top: 20px;
+}
+nav{
+    float: right;
+}
+nav ul{
+    list-style-type: none;  
+}
+nav ul li{
+    display: inline-block;
+    background-color: rgb(255, 0, 0);
+    margin: 25px;
+    padding: 10px 25px ;
+    border-radius: 5px;
+    width: 15%;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+} 
+nav ul li a:hover{
+    color: blue; 
+}
+/*Orta Kısım*/
+.container{
+    background-color: white;
+    height: 1200px;
+    width: 100%;
+    margin: auto;
+} 
+.hizalatwo{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+}
+.big{
+    width: 100%;
+    height: 360px;
+    background-color: black;
+    margin-top: 30px;
+    
+}
+.big h1{
+    color: white;
+    text-align: center;
+    font-size: 36px; 
+    padding: 150px;
+}
+.hizalathree{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 135px;
+    display:flex;
+    justify-content: space-between;
+    
+}
+.small{
+    height: 250px;
+    width: 30%;
+    background-color: black;
+}
+.small h1{
+    color: white;
+    text-align: center;
+    padding: 100px;
+    font-size: 25px;
+}
+.small a{
+    float: right;
+}
+.small a:hover{
+color: red;
+}
+.hizalafour{
+    width: 80%;
+    margin: auto;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.text50{
+    width: 50%;
+}
+.cerceve50{
+    width: 50%;
+    height: 200px;
+    background-color: black;
+} 
+.cerceve50 h1{
+    color: white;
+    text-align: center;
+    margin-top: 75px;
+
+}
+ /*Fooer Kısmı*/  
+ footer{
+     width: 100%;
+     height: 200px;
+     background-color: blue;
+ }
+ .hizalason{
+     width: 80%;
+     text-align: center;
+     margin-left: 60px;
+    
+     
+ }
+ .part{
+     height: 150px;
+     width: 30%;
+     float: left;
+ }
+ .part h4{
+     margin-top: 20px;
+     color: white;
+ }
+ .part h5{
+     color: white;
+     padding:10px;
+ }
+ .part li{
+     margin:10px;
+     list-style-type: none;
+ }
+ .part li a{
+     color: white;
+     text-decoration: none;   
+ }
+ .icon a{
+     color: white;
+ }
+ .icon a:hover{
+     color: black;
+ }
+ /*Responsive Kısım*/
+ @media screen and (max-width:1100px) {
+   .container{
+       width: 100%;
+   }
+   .menu{
+       display: none;
+   }
+   .small{
+       width: 100%;
+       display: none;
+   }
+   .hizalafour{
+       width: 100%;
+   }
+   
+ }
+ 
+    </style>
+</head>
+<body>
+    <!--Üst Kısım-->
+    <header>
+      <div class="hizala"> 
+        <div class="logo">
+            <a href=""><h1>Header</h1></a>
+            <h3>HTML ve CSS ile Web Sitesi</h3>
+        </div>
+        <div class="menu">
+            <nav>
+                <ul>
+                    <li> <a href="">Anasayfa</a></li>
+                    <li> <a href="">Hakkımızda</a></li>
+                    <li> <a href="">İletişim</a></li>
+                    <li> <a href="">Galeri</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>    
+    </header>
+    <!--Orta Kısım-->
+    <div class="container">
+        <div class="hizalatwo">
+            <div class="big">
+                <h1>1060.360px</h1>
+            </div>
+        </div>    <br> <br> <br> <br> <br> <br> <br> <br> <br>
+        <br> <br> <br> <br>  <br> <br> <br> 
+            <div class="hizalathree">
+                <div class="small"><h1>300x180px</h1> <br> <br> <h3>Bu Bir Başlık</h3>
+                <br> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                    Quae minima, atque tenetur est voluptas delectus. 
+                    Adipisci harum, eaque amet alias aut iste consequuntur.</p> <br> 
+                    <a href="">Devamını Oku...</a>
+                </div>
+                <div class="small"><h1>300x180px</h1> <br> <br> <h3>Bu Bir Başlık</h3>
+                    <br> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                        Quae minima, atque tenetur est voluptas delectus. 
+                        Adipisci harum, eaque amet alias aut iste consequuntur.</p> <br> 
+                        <a href="">Devamını Oku...</a>
+                </div>
+                <div class="small"><h1>300x180px</h1> <br> <br> <h3>Bu Bir Başlık</h3>
+                        <br> <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
+                            Quae minima, atque tenetur est voluptas delectus. 
+                            Adipisci harum, eaque amet alias aut iste consequuntur.</p> <br> 
+                            <a href="">Devamını Oku...</a>
+                </div>
+            </div>
+            <div class="hizalafour">
+                <div class="text50">
+                    <h1>Lorem İpsum</h1> <br>
+                    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                     Quibusdam, ipsam nesciunt. Perferendis enim ratione, 
+                        recusandae aspernatur asperiores voluptates quidem ducimus
+                        veniam sed eum, quis eveniet! Consectetur quos, eveniet
+                        veritatis consequatur sint explicabo earum fugiat repudiandae 
+                        voluptatem ut commodi quisquam sit! Asperiores nihil id 
+                        necessitatibus dignissimos voluptate odit rerum vero magni 
+                        ipsam doloremque doloribus error, et quae beatae molestiae rem iure.
+                        Asperiores nihil id 
+                        necessitatibus dignissimos voluptate odit rerum vero magni 
+                        ipsam doloremque doloribus error, et quae beatae molestiae rem iure</p>
+                </div>
+                <div class="cerceve50"><h1>300x180px</h1></div>
+            </div>        
+        </div>   
+
+        <!--Footer-->
+        <footer>
+        <div class="hizalason">
+            <div class="part">
+                <h4>Sayfalar</h4> <br>
+                <ul>
+                    <li> <a href="">Anasayfa</a></li>
+                    <li> <a href="">Hakkımızda</a></li>
+                    <li> <a href="">İletişim</a></li>
+                    <li> <a href="">Galeri</a></li>
+                </ul>
+            </div>
+            <div class="part">
+                <h4>İletişim</h4> <br>
+                <h5>Kendi Çalışmam</h5>
+                <h5>Cep:05393 393 00 36</h5>
+                <h5>E-Mail:yunus-emre98@hotmail.com</h5>
+                <h5>Fax:2585182187</h5>
+            </div>
+            <div class="part">
+                <h4>Sosyal Medya</h4>
+                <div class="icon">
+                   <a href="https://www.instagram.com/ysemre1907/"target="_blank"> <i class="fab fa-instagram fa-5x"></i></a>
+                </div>
+                <div class="icon">
+                  <a href="https://twitter.com/YunusOvski1"target="_blank"> <i class="fab fa-twitter fa-5x"></i></a> 
+                </div>
+            </div>
+        </div>
+        </footer>
+    
+    
+</body>
+</html>
